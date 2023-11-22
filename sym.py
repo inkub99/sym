@@ -63,7 +63,7 @@ if smoothed_emisje_3[0] > df_pismo.iloc[0, 10]:
 
 plt.plot(smoothed_values, smoothed_emisje, 'o-', label='Symulacja (nowa segmentacja)', color=kolory[0])
 plt.plot(smoothed_values, smoothed_emisje_3, 'o-', label='Symulacja (aktualna segmentacja)', color=kolory[2])
-plt.plot(range(1, 11), emisje_2.iloc[:, 0], 'o-', label='Rozkłady Bernouillego', color=kolory[1])
+#plt.plot(range(1, 11), emisje_2.iloc[:, 0], 'o-', label='Rozkłady Bernouillego', color=kolory[1])
 
 plt.ylabel('OTS(1+)')
 plt.xlabel('L.emisji')
