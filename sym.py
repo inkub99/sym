@@ -13,7 +13,7 @@ wybrane_pismo = st.selectbox("Wybierz pismo:", df['pismo'].unique(), index=df['p
 df_pismo = df[df['pismo'] == wybrane_pismo]
 
 st.write(f'RPC pisma: {df_pismo.iloc[0, 6].round(1)}    RPC grupy: {df_pismo.iloc[0, 7].round(1)}')
-st.write(f'CPW do mediaplanu (VII.2022 - VI 2023): {df_pismo.iloc[0, 10].round(2)}')
+st.write(f'CPW do mediaplanu (VII 2022 - VI 2023): {df_pismo.iloc[0, 10].round(2)}')
 st.write(f'CPW po zmianie segmentacji (VII 2022 - VI 2023): {df_pismo.iloc[0, 9].round(2)}')
 
 
